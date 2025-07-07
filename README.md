@@ -2,7 +2,7 @@
 
 Welcome to Apple Raider, a place for find the best ways to run Tomb Raider 1/5 on your Mac, both Intel and Apple Silicon
 Pull Requests are Welcome 😃
-![Lara Apple](Lara Apple.png)
+![Lara Apple](AppleRaider.png)
 
 ## Disclaimer
 
