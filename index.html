@@ -8,44 +8,50 @@
     <link rel="shortcut icon" href="Lara Apple.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <img src="Lara Apple.png" alt="Main Logo" width="100" height="auto">
-        <br>
-        <h1>AppleRaider - Tomb Raider for macOS users</h1>
-    </header>
-    <h3>AppleRaider helps you to make run Core Design's Tomb Raiders, on your macOS enviroment</h3>
-    <div class="games">
-        <div class="game-container">
-            <h2>Tomb Raider 1</h2>
-            <img src="Symbols/Scion.png" alt="TR1" width="100" height="auto">
-            <a href="TRs/TR1.html" class="game-button">View TR1 and UB</a>
+    <div id="app">
+        <div id="home-view">
+            <header>
+                <img src="Lara Apple.png" alt="Main Logo" width="100" height="auto">
+                <br>
+                <h1>AppleRaider - Tomb Raider for macOS users</h1>
+            </header>
+            <h3>AppleRaider helps you to make run Core Design's Tomb Raiders, on your macOS enviroment</h3>
+            <h1 class="work">WORK IN PROGRESS!! THE FAN PAGE ISN'T COMPLETE YET</h1>
+            <div class="game-container" id="trx-card">
+                <h3>TRX</h3>
+                <img src="Symbols/TRX.png" alt="TRX">
+                <p>TRX is an open source and cross platform engine for Tomb Raider I-II-III, and macOS is supported (both Intel and Apple Silicon)</p>
+                <p class="support">Supported Games: TR1, TR2 and TR3 (including golds)</p>
+                <button class="buttonPage" data-page="trx">Open</button>
+            </div>
+
+            <div class="game-container">
+                <h3>Parallels Desktop</h3>
+                <img src="Symbols/Parallels.png" alt="Parallels">
+                <p>Parallels Desktop is a paid software for macOS that lets you create a Windows 11 VM and have accelerated graphics.</p>
+                <p class="support">Supported Games: All</p>
+                <button class="buttonPage" data-page="parallels">Open</button>
+            </div>
+
+            <div class="game-container">
+                <h3>VMWare Fusion</h3>
+                <img src="Symbols/Fusion.png" alt="VMWare Fusion">
+                <p>The free alternative to Parallels Desktop, but more limited.</p>
+                <p class="support">Supported Games: All</p>
+                <button class="buttonPage" data-page="vmware">Open</button>
+            </div>
+
+            <footer>
+                <p>I'm not affiliated with Core Design, Eidos Interactive, Crystal Dynamics or Square Enix.</p>
+                <p>All rights reserved to their respective owners.</p>
+                <p>AppleRaider is a fan project, and it is not intended for commercial use.</p>
+                <p>© 2026 Checkm8Croft</p>
+            </footer>
         </div>
-        <div class="game-container">
-            <h2>Tomb Raider 2</h2>
-            <img src="Symbols/FiammaNera.png" alt="TR2" width="100" height="auto">
-            <a href="TRs/TR2.html" class="game-button">View TR2 and GM</a>
-        </div>
-        <div class="game-container">
-            <h2>Tomb Raider 3</h2>
-            <img src="Symbols/Artifact.png" alt="TR3" width="100" height="auto">
-            <a href="TRs/TR3.html" class="game-button">View TR3 and LA</a>
-        </div>
-        <div class="game-container">
-            <h2>Tomb Raider 4</h2>
-            <img src="Symbols/Horus.png" alt="TR4" width="100" height="auto">
-            <a href="TRs/TR4.html" class="game-button">View TR4</a>
-        </div>
-        <div class="game-container">
-            <h2>Tomb Raider 5</h2>
-            <img src="Symbols/Iris.png" alt="TR5" width="100" height="auto">
-            <a href="TRs/TR5.html" class="game-button">View TR5</a>
-        </div>
+
+        <div id="page-view" hidden></div>
     </div>
-    <footer>
-        <p>I'm not affiliated with Core Design, Eidos Interactive, Crystal Dynamics or Square Enix.</p>
-        <p>All rights reserved to their respective owners.</p>
-        <p>AppleRaider is a fan project, and it is not intended for commercial use.</p>
-        <p>© 2025 AppleRaider</p>
-    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
